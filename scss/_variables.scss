@@ -1,0 +1,36 @@
+/* Colors */
+// Blacks
+$lcd-black: #1c1c1c;
+// Blues
+$lcd-light-blue: #0092D2;
+$lcd-medium-blue: #0079B2;
+$lcd-dark-blue: #006A9E;
+$lcd-heavy-blue: #006597;
+$lcd-text-blue: #0092D2;
+$lcd-p-color: #65738B;
+$lcd-bg-light-blue: #E0EDF6;
+$lcd-bg-md-blue: #DFEFFB;
+// Grays
+$lcd-bg-light-gray: #F4F9FD;
+$lcd-bg-mid-gray: #E2E2E2;
+$lcd-input-bg-gray: #EEEEEE;
+$lcd-p-gray: #969696;
+$lcd-input-text-gray: rgba(28, 28, 28, 0.6);
+//Oranges
+$lcd-light-orange: #FFA268;
+
+/* Hamburger */
+$hamburger-padding-x           : 15px !default;
+$hamburger-padding-y           : 15px !default;
+$hamburger-layer-width         : 30px !default;
+$hamburger-layer-height        : 4px !default;
+$hamburger-layer-spacing       : 7px !default;
+$hamburger-layer-color         : #000 !default;
+$hamburger-layer-border-radius : 4px !default;
+$hamburger-hover-opacity       : 0.7 !default;
+$hamburger-active-layer-color  : $hamburger-layer-color !default;
+$hamburger-active-hover-opacity: $hamburger-hover-opacity !default;
+
+$hamburger-hover-use-filter   : false !default;
+$hamburger-hover-filter       : opacity(50%) !default;
+$hamburger-active-hover-filter: $hamburger-hover-filter !default;
